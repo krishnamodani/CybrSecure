@@ -1,0 +1,66 @@
+.forumBtn {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 80px;
+    top: 0;
+    margin-top: 30px;
+}
+
+.forumBtn:hover {
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+.register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register a {
+    color: rgb(74, 146, 235);
+}
+
+.register a:link {
+    text-decoration: none;
+}
+
+.smoke {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+
+}
+
+#homepage-flyers {
+    position: absolute;
+    visibility: visible;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+#col:hover #homepage-flyers {
+    visibility: visible;
+    background-color: gray;
+    opacity: 1;
+}
+
+.newscontainer {
+    width: 100%;
+    display: flex;
+}
+
+.left-side,
+.right-side {
+    flex: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
